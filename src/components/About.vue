@@ -1,6 +1,13 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
+      <span class="d-lg-none">
+        <g-image
+          alt="Image of Gavin"
+          src="../assets/images/profile.png"
+          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        />
+      </span>
       <h1 class="mb-0">
         Gavin
         <span class="text-primary">Acquroff</span>
