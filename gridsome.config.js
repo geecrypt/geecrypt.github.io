@@ -19,5 +19,6 @@ module.exports = {
     loaderOptions: {
       scss: {}
     }
-  }
+  },
+  siteUrl: 'https://geecrypt.github.io'
 }
