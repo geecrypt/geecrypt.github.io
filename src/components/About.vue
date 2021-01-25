@@ -14,7 +14,6 @@
       <p
         class="lead mb-5"
       >Enthusiastic software engineer with 1.5 years of professional experience in embedded system development. Eager to explore new fields in IT and apply strong security principles.</p>
-
       <div class="social-icons">
         <a href="https://linkedin.com/in/gacquroff" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
           <font-awesome :icon="['fab', 'linkedin']"/>

@@ -1,7 +1,8 @@
 module.exports = {
   siteName: 'Gavin\'s Resume',
   siteDescription: 'Resume and About Me. Forked from  lokecarlsson/gridsome-starter-resume',
-  siteUrl: 'https://geecrypt.github.io',
+  siteUrl: 'https://acquroff.io',
+  pathPrefix: '/geecrypt.github.io',
   plugins: [{
       use: '@gridsome/plugin-google-analytics',
       options: {
