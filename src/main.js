@@ -32,7 +32,11 @@ import {
   faGulp,
   faGrunt,
   faNpm,
-  faAws
+  faAws,
+  faVuejs,
+  faGitSquare,
+  faDocker,
+  faPython
 } from '@fortawesome/free-brands-svg-icons'
 import {
   FontAwesomeIcon
@@ -60,7 +64,11 @@ library.add(
   faNpm,
   faRss,
   faCheck,
-  faBroadcastTower
+  faBroadcastTower,
+  faVuejs,
+  faGitSquare,
+  faDocker,
+  faPython
 )
 
 export default function (Vue, {

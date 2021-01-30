@@ -5,45 +5,47 @@
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Junior Firmware Engineer</h3>
-          <div class="subheading mb-3">Sierra Wireless</div>
-          <p>Embedded system firmware and RTOS app development on a memory constrained system. Performed requirement gathering, feature design, debugging, regression testing, documentation and communication with multiple teams.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">August 2019 - Present</span>
-        </div>
-      </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div class="resume-content">
-          <h3 class="mb-0">Frontend Developer</h3>
-          <div class="subheading mb-3">Foobar studios</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">September 2012 - May 2014</span>
+          <h3 class="mb-0">Idea crowdsourcing mobile app</h3>
+          <div class="subheading mb-3">Stack: React Native, Flask, SQLite</div>
+          <ul>
+          <li>Led a 4 person team to develop an android app to promote workplace inclusivity and diversity for the 2020 nwPlus Hack Camp Hackathon.</li>
+          <li>Managers can crowdsource solutions to workplace or project problems from their staff, who submit anonymously. Users can upvote solutions. When problem due date is reached, the solution with the most upvotes reveals the name of the submitter, giving them recognition from their peers and management, rewarding merit without bias.</li>
+          <li>This project was not completed, but I learned a lot about teamwork under pressure.</li>
+          </ul>
         </div>
       </div>
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Junior Web Designer</h3>
-          <div class="subheading mb-3">Baz qux media</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 class="mb-0">Contributor to mbedTLS</h3>
+          <div class="subheading mb-3">Stack: C</div>
+          <ul>
+          <li>Fixed a longstanding bug in the entropy module</li>
+          <li>Raised a bug in the entropy module</li>
+          <li>Augmented documentation and test coverage</li>
+          </ul>
         </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">June 2011 - December 2012</span>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h3 class="mb-0">Game of Life</h3>
+          <div class="subheading mb-3">Stack: Python</div>
+          <ul>
+          <li>Implemented the Game of Life in Python and provided Linux and Windows executables for demos.</li>
+          <li>Leveraged the Pygame library to generate a home screen, clickable squares for initial state creation, and efficiently update the display.</li>
+          </ul>
         </div>
       </div>
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
         <div class="resume-content">
-          <h3 class="mb-0">Web Design Intern</h3>
-          <div class="subheading mb-3">Baz qux media</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">September 2009 - May 2011</span>
+          <h3 class="mb-0">Indeed web scraper</h3>
+          <div class="subheading mb-3">Stack: Python</div>
+          <ul>
+          <li>Built a python script to scrape job postings with certain keywords from indeed[.]com.</li>
+          <li>Integrated the Beautiful Soup module to parse HTML and search multiple pages of results.</li>
+          </ul>
         </div>
       </div>
     </div>

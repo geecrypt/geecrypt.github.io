@@ -15,53 +15,41 @@
           <font-awesome :icon="['fab', 'js-square']"/>
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'angular']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'react']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'node-js']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'sass']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'less']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'wordpress']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'gulp']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'grunt']"/>
+          <font-awesome :icon="['fab', 'vuejs']"/>
         </li>
         <li class="list-inline-item">
           <font-awesome :icon="['fab', 'npm']"/>
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'git-square']"/>
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'docker']"/>
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'python']"/>
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'aws']"/>
         </li>
       </ul>
 
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Mobile-First, Responsive Design
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Security-first Development
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cross Browser Testing &amp; Debugging
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Efficient, Readable Code
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cross Functional Teams
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Test-Driven Development
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Agile Development &amp; Scrum
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Customer Satisfaction
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cutting edge JavaScript frameworks
-        </li>
-        <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Design principles and UX
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Beautiful Design
         </li>
       </ul>
     </div>

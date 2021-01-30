@@ -7,7 +7,12 @@
         <div class="resume-content">
           <h3 class="mb-0">Junior Firmware Engineer</h3>
           <div class="subheading mb-3">Sierra Wireless</div>
-          <p>Embedded system firmware and RTOS app development on a memory constrained system. Performed requirement gathering, feature design, debugging, regression testing, documentation and communication with multiple teams.</p>
+          <p>Firmware and RTOS app development on a telecom module.</p>
+          <ul>
+          <li>Strengthened module security by implementing a cryptographically secure PRNG with entropy accumulation.</li>
+          <li>Reduced module power consumption in low coverage scenarios by designing an app that displays the current network conditions.</li>
+          <li>Reduced U-Boot attack surface by researching vulnerabilities and removing dangerous commands from the whitelist.</li>
+          </ul>
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">August 2019 - Present</span>
