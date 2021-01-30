@@ -6,7 +6,7 @@
         <g-image
           alt="Image of Gavin"
           src="../assets/images/profile.png"
-          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          class="img-fluid img-profile new-circle mx-auto mb-2"
         />
       </span>
     </div>
@@ -14,27 +14,41 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
+          <a class="nav-link" v-on:click.prevent="scroll('#about')">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
+          <a class="nav-link" v-on:click.prevent="scroll('#employment')">Employment</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Education</a>
+          <a class="nav-link" v-on:click.prevent="scroll('#projects')">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
+          <a class="nav-link" v-on:click.prevent="scroll('#education')">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
+          <a class="nav-link" v-on:click.prevent="scroll('#skills')">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Awards</a>
+          <a class="nav-link" v-on:click.prevent="scroll('#interests')">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="scroll('#awards')">Certifications</a>
         </li>
       </ul>
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  methods: {
+    scroll: function(view) {
+      this.$scrollTo(view);
+      //document.title = "Foo";
+    }
+  }
+}
+</script>
 
 <style scoped lang="scss">
 .navbar-brand,
@@ -106,5 +120,12 @@
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+}
+
+.new-circle{
+  border:1px solid;
+  border-radius:50%;
+  width:200px;
+  height:200px;
 }
 </style>

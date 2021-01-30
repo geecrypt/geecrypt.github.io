@@ -5,25 +5,12 @@
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">University of Bazqux</h3>
-          <div class="subheading mb-3">Postgraduate education in computer science</div>
-          <div>Bachelor's degree</div>
-          <p>GPA: 3.53</p>
+          <h3 class="mb-0">University of British Columbia</h3>
+          <div class="subheading mb-3">Bachelor of Applied Science in Electrical Engineering</div>
+          <p><i>with Distinction</i></p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">August 2007 - May 2011</span>
-        </div>
-      </div>
-
-      <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-        <div class="resume-content">
-          <h3 class="mb-0">Foobar High School</h3>
-          <div class="subheading mb-3">Electical engineering</div>
-          <div>Computer science tack</div>
-          <p>GPA: 4.16</p>
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">August 2003 - May 2007</span>
+          <span class="text-primary">April 2019</span>
         </div>
       </div>
     </div>

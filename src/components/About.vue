@@ -5,7 +5,7 @@
         <g-image
           alt="Image of Gavin"
           src="../assets/images/profile.png"
-          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          class="img-fluid img-profile new-circle mx-auto mb-2"
         />
       </span>
       <h1 class="mb-0">
@@ -68,5 +68,12 @@
 
 .social-icons a:hover {
   background-color: var(--primary);
+}
+
+.new-circle{
+  border:1px solid;
+  border-radius:50%;
+  width:200px;
+  height:200px;
 }
 </style>

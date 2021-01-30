@@ -3,7 +3,9 @@
     <div class="container-fluid p-0">
       <About/>
       <hr class="m-0">
-      <Experience/>
+      <Employment/>
+      <hr class="m-0">
+      <Projects/>
       <hr class="m-0">
       <Education/>
       <hr class="m-0">
@@ -18,7 +20,8 @@
 
 <script>
 import About from "../components/About";
-import Experience from "../components/Experience";
+import Employment from "../components/Employment";
+import Projects from "../components/Projects";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
@@ -27,15 +30,15 @@ import Awards from "../components/Awards";
 export default {
   components: {
     About,
-    Experience,
+    Employment,
+    Projects,
     Education,
     Skills,
     Interests,
     Awards
   },
   metaInfo: {
-    title: "Gridsome Starter Resume",
-    titleTemplate: "%s - Create your resume quick and easy!"
+    title: "About"
   }
 };
 </script>
@@ -53,11 +56,17 @@ export default {
 .fa-ul > li {
   display: flex;
   align-items: center;
+  padding: 1rem;
 }
 
 .dev-icons {
   font-size: 3rem;
 }
+
+.cert-icons {
+  font-size: 2rem;
+}
+
 
 .dev-icons .list-inline-item svg:hover {
   color: var(--primary);
@@ -75,7 +84,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 50vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;

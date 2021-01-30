@@ -11,7 +11,9 @@ import {
 import {
   faTrophy,
   faRss,
-  faCheck
+  faCheck,
+  faCertificate,
+  faBroadcastTower
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
@@ -30,6 +32,7 @@ import {
   faGulp,
   faGrunt,
   faNpm,
+  faAws
 } from '@fortawesome/free-brands-svg-icons'
 import {
   FontAwesomeIcon
@@ -41,6 +44,8 @@ library.add(
   faFacebook,
   faLinkedin,
   faTrophy,
+  faCertificate,
+  faAws,
   faHtml5,
   faCss3Alt,
   faJsSquare,
@@ -55,6 +60,7 @@ library.add(
   faNpm,
   faRss,
   faCheck,
+  faBroadcastTower
 )
 
 export default function (Vue, {

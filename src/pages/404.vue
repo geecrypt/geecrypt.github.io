@@ -4,6 +4,15 @@
   </Layout>
 </template>
 
+<script>
+export default {
+  metaInfo:
+  {
+    title: "404"
+  }
+}
+</script>
+
 <style scoped lang="scss">
 img {
   width: 80%;
